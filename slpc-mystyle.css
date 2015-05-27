@@ -76,6 +76,22 @@ h3 {
   display: block;
 }
 
+img {
+  width: 127px;
+  height: 127px;
+}
+
+ul {
+  list-style: none;
+  list-style-position: initial;
+  list-style-image: inital;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
  /* .top-navigation > .content { width: 970px;
   margin: 0 auto; Removed this from here
   in order to fix .content margin } */
@@ -131,13 +147,6 @@ element.style {
   height: 45.938rem;
   overflow: auto;
   background-position: 0 bottom;
-
-}
-
-.content {
-  padding: 0 0.938rem;
-  margin: 0 auto;
-  min-width: 37.5rem;
 }
 
 .introduction h1 {
@@ -154,6 +163,14 @@ element.style {
   color: white;
   text-align: center;
   font-weight: 300;
+}
+
+/* 1st Button "Lean More"*/
+
+.introduction .big-button {
+  color: white;
+  margin: 0 auto;
+  margin-top: 1.563rem;
 }
 
 .big-button {
@@ -174,11 +191,59 @@ element.style {
   cursor: pointer;
 }
 
-.introduction .big-button {
-  color: white;
+/*3 Case Images*/
+
+.content {
+  padding: 0 0.938rem;
   margin: 0 auto;
-  margin-top: 1.563rem;
+  min-width: 37.5rem;
 }
+
+.cases {
+  background-color: #fff;
+  overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  padding-bottom: 5rem;
+}
+
+.cases .content {
+  margin-top: 7.875rem;
+  color: #1d1e21;
+  text-align: center;
+}
+
+.cases .devices > li {
+  width: 33.3333333%;
+  float: left;
+}
+
+.case h2 {
+  font-size: 2.75rem;
+  margin:1.625rem 0 3.125rem;
+  font-weight: 300;
+}
+
+.cases .devices h3 {
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+}
+
+/*Footer*/
+.social {
+  background-color: #fff;
+  overflow: auto;
+  padding-bottom: 9.375rem;
+  text-align: center;
+}
+
+.socal hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+}
+
 
 
 

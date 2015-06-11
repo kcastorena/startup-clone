@@ -96,6 +96,11 @@ li {
   margin: 0 auto; Removed this from here
   in order to fix .content margin } */
 
+.top-navigation {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
 .top-navigation .logo {
   height: 4.375rem;
   /*padding-left: 15px; Removed to make Logo Bigger*/
@@ -137,7 +142,7 @@ element.style {
   padding: 0px 15px;
   display: inline-block;
   vertical-align: baseline;
-}
+} 
 
 .introduction {
   background-image: url('../startup-clone/images/first-background.jpg'); 
@@ -216,6 +221,10 @@ element.style {
 .cases .devices > li {
   width: 33.3333333%;
   float: left;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 4em;
 }
 
 .case h2 {
@@ -244,6 +253,12 @@ element.style {
   margin: 1.313rem 0;
 }
 
+/*footer*/
 
-
+.social {
+  background-color: #fff;
+  overflow: auto;
+  padding-bottom: 9.375rem;
+  text-align: center;
+}
 
